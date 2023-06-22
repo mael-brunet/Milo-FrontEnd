@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Milo",
+    "slug": "Milo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "description": "Milo tout pour les animaux ! Effectuez des réservations en ligne pour la garderie Milo à Montpellier",
+    "icon": "./assets/images/logostart.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logostart.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
